@@ -1,0 +1,155 @@
+
+
+/* Principal */
+main{
+  width: 1024px;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+}
+
+
+/* Cabeçalho */
+header{
+  width: 1024px;
+}
+
+.logo{
+  text-align: center;
+  font-size: 45px;
+  padding: 30px;
+  position: fixed;
+  background-color: rgb(10, 10, 10);
+  width: 964px;
+  top: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+
+}
+
+.logo a {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px rgb(97, 97, 97);
+  cursor:pointer;
+}
+
+/* Textos do corpo */
+section {
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: justify;
+  line-height: 35px;
+}
+
+.paginas {
+  margin-top: 200px;
+  clear: both;
+  padding-top: 20px;
+}
+
+.block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.titulo{
+  margin-top: -20px;
+  text-align: center;
+}
+/* Imagem de perfil */
+
+.fotoContainer{
+  min-width: 30%;
+  min-height: 90%;
+}
+
+#foto {
+  width: 30%;
+  height: 90%;
+  margin: 10px 10px 10px 10px;
+  border-style: groove;
+  border-color: rgb(27, 27, 27);
+  border-radius: 5cm;
+  float: left;
+
+}
+
+.row{
+  display: flex;
+}
+
+/* Corpo */
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background: rgb(0, 0, 0);
+}
+
+.textoInicio{
+  font-size: 55px;
+  text-align: center;
+  line-height: 55px;
+  margin: auto;
+}
+
+
+/* Barra de navegação */
+
+nav{
+  width: 1024px;
+  position: fixed;
+  margin-top: -102px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li {
+  float: left;
+  margin: 0;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: bold;
+  max-height: 20px;
+  min-height: 20px;
+
+}
+
+nav li a img {
+  height: 32px;
+  width: 32px;
+  margin-top: -5px;
+
+}
+nav li a:hover {
+  background-color: rgb(0, 0, 0);
+  cursor:pointer;
+  transition-duration: 0.5s;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+}
+
+
+
+/* Rodapé */
+
+@media(max-width:576px){
+  main{
+    background-color: rgb(255, 0, 0);
+  }
+}

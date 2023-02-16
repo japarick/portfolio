@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Henrique Seiji Kondo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body   onload="mostrarPaginaInicial()">
+    <main>
+      <header>
+        <div class="logo">
+          <a onclick="mostrarInicio()">PORTFÓLIO</a>
+        </div>
+        <div id="navItens" class="navBar">
+          <nav>
+            <ul>
+              <li><a onclick="mostrarInicio()", style="background-color: rgb(22, 22, 22)">Início</a></li>
+              <li><a onclick="mostrarFormacao()">Formação</a></li>
+              <li><a onclick="mostrarExperiencia()">Experiência</a></li>
+              <li><a onclick="mostrarHabilidades()">Habilidades</a></li>
+              <li><a onclick="mostrarProjetos()">Projetos</a></li>
+              <li><a onclick="mostrarContato()">Contato</a></li>
+              <li style="float: right"><a href="https://www.facebook.com/henrique.kondo" target="_blank"><img class="imgSocial" src="images/facebook.png"/></a></li>
+              <li style="float: right"><a href="https://www.instagram.com/henrique_kondo/" target="_blank"><img class="imgSocial" src="images/instagram.png"/></a></li>
+              <li style="float: right"><a href="https://www.linkedin.com/in/henriquekondo/" target="_blank"><img class="imgSocial" src="images/linkedin.png"/></a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section id="inicio" class="paginas">
+        <div class="row">
+            <img id="foto" src="images/foto.jpeg" />
+              <p class="textoInicio">
+                Olá, eu sou o Henrique! Sou Desenvolvedor Front-End.
+              </p>
+      </div>
+    </section>
+      <section id="formacao" class="paginas">
+        <tr>
+          <h1 class="titulo">Formação</h1>
+          <p>Ensino Médio/Técnico em Informática - Colégio Anchieta (2011 - 2013)</p>
+          <p>Bacharelado em Administração - Centro Universitário da Fundação Educacional Inaciana "Padre Sabóia de Medeiros" (FEI) (2016 - 2020)</p>
+        </tr>
+      </section>
+      <section id="experiencia" class="paginas">
+        <tr>
+          <h1 class="titulo">Experiência</h1>
+          <p>Assessor de Políticas Públicas - Secretaria de Habitação de São Bernardo do Campo (2018 - 2020)</p>
+          <p>Estagiário de Administração - Secretaria de Habitação de São Bernardo do Campo (2018 - 2018)</p>
+        </tr>
+      </section>
+      <section id="habilidades" class="paginas">
+        <tr>
+          <h1 class="titulo">Habilidades</h1>
+          <p>Pacote Office</p>
+          <p>Python</p>
+          <p>HTML 5</p>
+          <p>CSS 3</p>
+          <p>JavaScript</p>
+        </tr>
+      </section>
+      <section id="projetos" class="paginas">
+        <tr>
+          <h1 class="titulo">Projetos</h1>
+          <p>
+            Em breve.
+          </p>
+        </tr>
+      </section>
+      <section id="contato" class="paginas">
+        <tr>
+          <h1 class="titulo">Contato</h1>
+          <p>E-mail: henrique_kondo@hotmail.com</p>
+          <p>Celular/Whatsapp: (11)98663-4769</p>
+        </tr>
+      </section>
+    </main>
+  </body>
+</html>
